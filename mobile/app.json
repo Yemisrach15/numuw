@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "Numuw Parent",
+    "slug": "numuw-parent-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "numuwparent",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#08111D",
+    "extra": {
+      "apiUrl": "http://localhost:8000/api",
+      "wsUrl": "ws://localhost:8000/ws",
+      "firebase": {
+        "apiKey": "",
+        "authDomain": "",
+        "projectId": "",
+        "storageBucket": "",
+        "messagingSenderId": "",
+        "appId": ""
+      }
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.numuw.parent"
+    },
+    "android": {
+      "package": "com.numuw.parent",
+      "softwareKeyboardLayoutMode": "resize",
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "experiments": {
+      "tsconfigPaths": true,
+      "typedRoutes": true
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
